@@ -12,6 +12,7 @@ from sklearn.metrics import (
     mean_absolute_error,
     r2_score,
     confusion_matrix,
+    precision_score,
 )
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
