@@ -15,5 +15,6 @@ from sklearn.metrics import (
     precision_score,
     recall_score,
 )
+from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
